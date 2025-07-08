@@ -6,13 +6,19 @@
     font-variation-settings:
       "wdth" 100;
   }
+/* header */
+header{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
   /* nav style */
   nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0 200px;
   }
   .nav-title{
     font-size: 45px;
@@ -45,4 +51,31 @@
     border-radius: 5px;
     border: none;
     color: white;
+  }
+
+  /* banner  style */
+  .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+  }
+  .banner-content{
+    max-width: 580px;
+  }
+  .banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .font-description{
+    font-size: 18px;
+  }
+  .banner-image{
+    width: 580px;
   }
