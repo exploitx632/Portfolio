@@ -24,6 +24,11 @@ header{
     border: none;
     color: white;
   }
+  .btn-phone{
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+  }
   .dark-2{
     color: #474747;
   }
