@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,8 +29,8 @@
                 <h1 class="banner-title">Mary Hardy</h1>
                 <p class="content-description">I am a student of web development. I am trying to learn web development.
                 </p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact Me</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact Me</button>
             </div>
             <img class="banner-image" src="images/hardy.png" alt="">
         </div>
@@ -153,11 +154,27 @@
                     </div>
                 </div>
             </div>
-            <div class="btn-container"><button class="btn-primary">Download CV</button></div>
+            <div class="btn-container"><button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button></div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-secondary">
+        <div class="footer-content">
+            <h2 class="foot-title">Lets Connect</h2>
+            <p class="available-time">Please fill out the form on this section to contact with me or call between
+                9:00 A.M and 8.00 P.M t., Monday through Friday.</p>
+            <div class="foot-logo">
+                <img src="images/icons/facebook.png" alt="">
+                <img src="images/icons/insta.png" alt="">
+                <img src="images/icons/twitter.png" alt="">
+            </div>
+        </div>
+        <div class="footer-content">
+            <h2 class="foot-title">Lets Message Me</h2>
+            <input type="text" class="item-display" placeholder="Your Name">
+            <input type="email" name="" id="" class="item-display" placeholder="Your Email">
+            <textarea name="" id="" class="comment" cols="30" rows="5" class="item-display" placeholder="Your Opinion"></textarea>
+            <input type="submit" value="Submit" class="btn-primary item-display">
+        </div>
     </footer>
 </body>
 
