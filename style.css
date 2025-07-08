@@ -136,3 +136,41 @@ header{
   .section-description{
     padding: 0 100px;
   }
+
+  /* resume style  */
+
+  .resume{
+    text-align: center;
+  }
+  .resume-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+  }
+  .resume .resume-title{
+    font-size: 35px;
+  }
+  .my-edu,.my-exp{
+    font-size: 24px;
+    color: #4a4a4a;
+
+  }
+  .res-item-des-title{
+    color: #4a4a4a;
+    font-size: 24px;
+  }
+  .from{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+  }
+  .res-description{
+    color: #757575;
+  }
+
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
